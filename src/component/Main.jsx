@@ -10,7 +10,7 @@ const Main = () => {
         <p>"Dont worry your data safe with us"</p>
       </div>
       <div style={{margin:'24px 16px 24px 16px'}}>
-        <div style={{padding:'16px 10px 16px 10px',height:"56px",backgroundColor:'#F8F8FC',width:"493px"}}>Enter your name</div>
+        <div className='inp1'>Enter your name</div>
         <div style={{padding:'16px 10px 16px 10px',height:"56px",marginTop:"16px",backgroundColor:'#F8F8FC',width:"493px"}}>Mobile number</div>
         <div style={{padding:'16px 10px 16px 10px',height:"156px",marginTop:"16px",backgroundColor:'#F8F8FC',width:"493px"}}>Your Requirement</div>
         <div style={{margin:'40px 0px 40px 0px',display:'flex',justifyContent:"space-between",alignItems:'center'}}>
@@ -98,9 +98,9 @@ const Main = () => {
      
     </div>
     
-    <div style={{height:'410px',margin:'40px 100px 40px 100px'}}>
+    <div className='Main3'>
        <div style={{height:'51px',margin:'0px 0px 40px 0px',justifyContent:'center',alignItems:'center',display:'flex'}}><h1>our additional <span>Services</span></h1></div>
-      <div style={{display:'flex',}}>
+      <div className='Main43'>
      <div style={{ width:'248px',height:'261px',margin:'16px 16px 16px 16px'}}>
       <div style={{margin:'0px 0px 24px 0px',justifyContent:'center',alignItems:'center',display:'flex'}}><img src="fm5.png" alt="" /></div>
       <h1 style={{display:'flex',justifyContent:'center',alignItems:"center"}}>legal opinion</h1>
@@ -140,7 +140,7 @@ const Main = () => {
       </div>
 
      </div>
-     <div style={{display:'flex',justifyContent:'space-between'}}>
+     <div className='Main4'>
        <div>
         <img src="im1.png" alt="" style={{margin:'0 0 32px 0'}}/>
         <h3  style={{margin:'0 0 12px 0'}}>publisher 18 jan 2022</h3>

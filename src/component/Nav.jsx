@@ -5,17 +5,17 @@ const Nav = () => {
   return (<>
     <div className='nav'>
     <div>
-      <img src="eklogo.png" alt="" />
+      <img src="eklogo.png" alt="" className='logo1' />
     </div>
     <div className='n1'>
       <div className='l1'>why you should list with us</div>
-      <div><button style={{margin:"0 20px 0 20px"}}>List your agriculture/farm land</button></div>
+      <div><button className='a1b1'>List your agriculture/farm land</button></div>
       <span>|</span>
-     <a href="#" style={{margin:"0 20px 0 20px"}}>Login</a>
+     <a href="#" className='a1'>Login</a>
       <span>|</span>
-      <a href="#" style={{margin:"0 20px 0 20px"}}>signup</a>
+      <a href="#" className='a1'>signup</a>
       <span>|</span>
-      <a href="" style={{margin:"0 20px 0 20px"}}>
+      <a href="" className='a1'>
         <AiOutlineMenuUnfold className="nav-icons" />
         Menu
         </a>
