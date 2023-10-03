@@ -149,10 +149,29 @@ background-Color:#F8F8FC;
   margin:'58px 119px 57px 120px';
   height:'643px'
 }
+.Main6{
+  display:"flex";
+    align-Items:"center";
+    justify-Content:'space-around'
+}
+.l2g2{
+  margin:'0 0 32px 0'
+}
 @media only screen and (max-width:768px){
   *{
     margin: 0;
     padding: 0;
+  }
+  .Main4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer23{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   .inp3{
     width: 80%;
@@ -170,7 +189,10 @@ background-Color:#F8F8FC;
   .nav{
     width: 100%;
     background-color: aqua;
-    margin: 1%;
+    margin: 0%;
+  }
+  .r1{
+    margin-left: 30px;
   }
   .n1{
 margin-left: 12px;
@@ -192,7 +214,9 @@ margin-left: 12px;
   }
   .Main43{
     flex-wrap: wrap;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .n1{
     margin: 0px;
@@ -221,5 +245,23 @@ height: auto;
  }
  .p1{
   height: auto;
+ }
+ .navb{
+  height: auto;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+ }
+ .Main6{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+ }
+ .l1g1{
+  width: 80%;
+ }
+ .l2g2{
+  width: 80%;
  }
 }

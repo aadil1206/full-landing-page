@@ -154,7 +154,7 @@ const Nav = () => {
       
     
     </div>
-    <div style={{display:"flex",alignItems:"center",justifyContent:'space-around'}}>
+    <div className='Main6'>
       <div>
         <img src="1.png" alt="" style={{width:'64px',height:'64px'}} />
         <h3>500+</h3>
