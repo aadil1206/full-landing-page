@@ -4,7 +4,7 @@ import {FiSearch} from "react-icons/fi"
 const Nav = () => {
   return (<>
     <div className='nav'>
-    <div>
+    <div className='l3'>
       <img src="eklogo.png" alt="" className='logo1' />
     </div>
     <div className='n1'>

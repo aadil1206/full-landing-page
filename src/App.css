@@ -188,7 +188,7 @@ background-Color:#F8F8FC;
   }
   .nav{
     width: 100%;
-    background-color: aqua;
+   
     margin: 0%;
   }
   .r1{
@@ -221,6 +221,10 @@ margin-left: 12px;
   .n1{
     margin: 0px;
   
+  }
+  .l3{
+    display: flex;
+    align-items: center;
   }
   .logo1{
     width:15vw;
