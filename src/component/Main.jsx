@@ -9,10 +9,10 @@ const Main = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic temporibus quis <br /> asperiores fuga dignissimos tempora in fugit esse officiis at.</p>
         <p>"Dont worry your data safe with us"</p>
       </div>
-      <div style={{margin:'24px 16px 24px 16px'}}>
+      <div className='inp'>
         <div className='inp1'>Enter your name</div>
-        <div style={{padding:'16px 10px 16px 10px',height:"56px",marginTop:"16px",backgroundColor:'#F8F8FC',width:"493px"}}>Mobile number</div>
-        <div style={{padding:'16px 10px 16px 10px',height:"156px",marginTop:"16px",backgroundColor:'#F8F8FC',width:"493px"}}>Your Requirement</div>
+        <div className='inp2'>Mobile number</div>
+        <div className='inp3'>Your Requirement</div>
         <div style={{margin:'40px 0px 40px 0px',display:'flex',justifyContent:"space-between",alignItems:'center'}}>
           <img src="91.png" alt="" style={{width:"24px",height:"24px"}}/>
           <h3>Need any help? just send hi</h3>
@@ -22,7 +22,7 @@ const Main = () => {
     
       <div><img src="Frame 90.png" alt="" /></div>  </div>
     </div>
-    <div style={{padding:'119px 119px 120px 120px',height:'1140px'}}>
+    <div className='p1'>
     <div style={{display:'flex',justifyContent:'space-between'}}>
       <h1><span>Feature Land for you</span></h1>
       <h4>load more</h4>
@@ -132,7 +132,7 @@ const Main = () => {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, <br />veritatis non perferendis exercitationem perspiciatis totam <br />delectus tempora </p>
      </div>
     </div></div>
-    <div style={{margin:'58px 119px 57px 120px',height:'643px'}}>
+    <div className='Main5'>
      <div>
       <h3 style={{display:'flex',justifyContent:'flex-start'}}>Blogs</h3>
       <div style={{display:'flex',justifyContent:'space-between'}}><h2>News&Articles</h2>
