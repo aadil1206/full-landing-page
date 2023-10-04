@@ -27,16 +27,17 @@ const Main = () => {
       <h1><span>Feature Land for you</span></h1>
       <h4>load more</h4>
     </div>
-     <div style={{marginTop:"40px",display:'flex',flexWrap:'wrap',justifyContent:'space-between'}}>
-      <div>
+    <div className='n45'>
+     <div className='n23'>
+      <div className='n31'>
         <img src="Rectangle 27.png" alt="" className='l1g1'/>
-   <div style={{paddingTop:"15px"}}>
+   <div className='n34'>
     <h3>50 acres</h3>
     <p style={{paddingTop:"2px"}}>area location zaheerabad</p>
    </div>
-   <div style={{display:'flex',justifyContent:"space-between",backgroundColor:'#F8F8FC',width:'365px',height:'40px',alignItems:'center'}}>
-    <h3>More details</h3>
-    <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/>
+   <div className='n12'>
+    <div><h3>More details</h3></div>
+    <div> <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/></div>
    </div>
       </div>
       <div>
@@ -45,9 +46,9 @@ const Main = () => {
     <h3>50 acres</h3>
     <p style={{paddingTop:"2px"}}>area location zaheerabad</p>
    </div>
-   <div style={{display:'flex',justifyContent:"space-between",backgroundColor:'#F8F8FC',width:'365px',height:'40px',alignItems:'center'}}>
-    <h3>More details</h3>
-    <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/>
+   <div className='n12'>
+    <div><h3>More details</h3></div>
+    <div> <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/></div>
    </div>
       </div>
       <div>
@@ -56,9 +57,9 @@ const Main = () => {
     <h3>50 acres</h3>
     <p style={{paddingTop:"2px"}}>area location zaheerabad</p>
    </div>
-   <div style={{display:'flex',justifyContent:"space-between",backgroundColor:'#F8F8FC',width:'365px',height:'40px',alignItems:'center'}}>
-    <h3>More details</h3>
-    <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/>
+   <div className='n12'>
+    <div><h3>More details</h3></div>
+    <div> <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/></div>
    </div>
       </div>
       <div>
@@ -67,9 +68,9 @@ const Main = () => {
     <h3>50 acres</h3>
     <p style={{paddingTop:"2px"}}>area location zaheerabad</p>
    </div>
-   <div style={{display:'flex',justifyContent:"space-between",backgroundColor:'#F8F8FC',width:'365px',height:'40px',alignItems:'center'}}>
-    <h3>More details</h3>
-    <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/>
+   <div className='n12'>
+    <div><h3>More details</h3></div>
+    <div> <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/></div>
    </div>
       </div>
       <div>
@@ -78,9 +79,9 @@ const Main = () => {
     <h3>50 acres</h3>
     <p style={{paddingTop:"2px"}}>area location zaheerabad</p>
    </div>
-   <div style={{display:'flex',justifyContent:"space-between",backgroundColor:'#F8F8FC',width:'365px',height:'40px',alignItems:'center'}}>
-    <h3>More details</h3>
-    <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/>
+   <div className='n12'>
+    <div><h3>More details</h3></div>
+    <div> <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/></div>
    </div>
       </div>
       <div>
@@ -89,13 +90,13 @@ const Main = () => {
     <h3>50 acres</h3>
     <p style={{paddingTop:"2px"}}>area location zaheerabad</p>
    </div>
-   <div style={{display:'flex',justifyContent:"space-between",backgroundColor:'#F8F8FC',width:'365px',height:'40px',alignItems:'center'}}>
-    <h3>More details</h3>
-    <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/>
+   <div className='n12'>
+    <div><h3>More details</h3></div>
+    <div> <img src="arrow-right.png" alt="" style={{width:'24px',height:'24px'}}/></div>
    </div>
       </div>
      </div>
-     
+     </div>
     </div>
     
     <div className='Main3'>
@@ -144,7 +145,7 @@ const Main = () => {
        <div>
         <img src="im1.png" alt="" className='l2g2'/>
         <h3  style={{margin:'0 0 12px 0'}}>publisher 18 jan 2022</h3>
-        <div style={{display:'flex',justifyContent:'space-between',width:"379px"}}><h2>Heading</h2>
+        <div className='l00'><h2>Heading</h2>
         <img src="arrow-up-right.png" alt="" style={{width:'24px',height:'24px'}}/></div>
         <div><h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Obcaecati ab repellendus cum incidunt illum. Accusamus quasi doloremque <br />undebr
          nulla perspiciatis animi modi ad quibusdam deleniti!</h6></div>
@@ -152,7 +153,7 @@ const Main = () => {
        <div>
         <img src="im1.png" alt="" className='l2g2'/>
         <h3  style={{margin:'0 0 12px 0'}}>publisher 18 jan 2022</h3>
-        <div style={{display:'flex',justifyContent:'space-between',width:"379px"}}><h2>Heading</h2>
+        <div className='l00'><h2>Heading</h2>
         <img src="arrow-up-right.png" alt="" style={{width:'24px',height:'24px'}}/></div>
         <div><h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Obcaecati ab repellendus cum incidunt illum. Accusamus quasi doloremque <br />undebr
          nulla perspiciatis animi modi ad quibusdam deleniti!</h6></div>
@@ -160,7 +161,7 @@ const Main = () => {
        <div>
         <img src="im1.png" alt="" className='l2g2'/>
         <h3  style={{margin:'0 0 12px 0'}}>publisher 18 jan 2022</h3>
-        <div style={{display:'flex',justifyContent:'space-between',width:"379px"}}><h2>Heading</h2>
+        <div className='l00'><h2>Heading</h2>
         <img src="arrow-up-right.png" alt="" style={{width:'24px',height:'24px'}}/></div>
         <div><h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />Obcaecati ab repellendus cum incidunt illum. Accusamus quasi doloremque <br />undebr
          nulla perspiciatis animi modi ad quibusdam deleniti!</h6></div>
