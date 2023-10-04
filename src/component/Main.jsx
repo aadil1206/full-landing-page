@@ -142,7 +142,7 @@ const Main = () => {
 
      </div>
      <div className='Main4'>
-       <div>
+       <div className='l90'>
         <img src="im1.png" alt="" className='l2g2'/>
         <h3  style={{margin:'0 0 12px 0'}}>publisher 18 jan 2022</h3>
         <div className='l00'><h2>Heading</h2>
