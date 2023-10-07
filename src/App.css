@@ -202,7 +202,7 @@ background-Color:#F8F8FC;
     width: 80%;
   }
   .a1{
-    margin: 0.75vw;
+    margin: 0.1vw;
   }
   .a1b1{
 
@@ -214,12 +214,14 @@ background-Color:#F8F8FC;
   }
   .row{
     display: flex;
-    justify-content: center;
+  
     align-items: center;
   }
   .row1{
-    display: block;
+    display: flex;
     margin: 0 auto;
+    flex-direction: column;
+    
   }
   .l9{
     width: 125px;
@@ -237,7 +239,7 @@ background-Color:#F8F8FC;
     margin-left: 30px;
   }
   .l1{
-    color: white;
+    color: black;
     width: 50%;
     justify-content: center;
   }
@@ -343,6 +345,8 @@ height: auto;
   justify-Content:center;
   margin-left: 0;
   width: 100%;
+  padding: 0 auto;
+  align-items: center;
 }
 .n45{
   display: flex;
@@ -353,7 +357,7 @@ height: auto;
   display: block;
   margin-left: 12px;
 }
-.l90{
-  
+.l98{
+width: 190px;
 }
 }

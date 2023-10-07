@@ -20,7 +20,7 @@ const Main = () => {
           <h3>on whatsapp +9131680903</h3>
         </div>
     
-      <div><img src="Frame 90.png" alt="" /></div>  </div>
+      <div><img src="Frame 90.png" alt="" className='l98' /></div>  </div>
     </div>
     <div className='p1'>
     <div style={{display:'flex',justifyContent:'space-between'}}>
