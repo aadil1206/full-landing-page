@@ -105,8 +105,8 @@ li{
 .Main3{
   height: 410px;
   margin:40px 100px 40px 100px;
-  display: flex ;
-  flex-wrap: wrap;
+  
+
 }
 .Main4{
   display: flex ;
@@ -114,7 +114,7 @@ li{
   justify-Content:space-between;
 }
 .Main43{
-  display:'flex';
+  display:flex;
 }
 .inp1{
   padding:'16px 10px 16px 10px';
@@ -123,10 +123,10 @@ li{
     width:"493px"
 }
 .a1b1{
-  margin:"0 20px 0 20px"
+  margin: 0 20px 0 20px
 }
 .a1{
-  margin:"0 20px 0 20px"
+  margin: 0 20px 0 20px
 }
 .inp2{
 padding:'16px 10px 16px 10px';
@@ -151,9 +151,9 @@ background-Color:#F8F8FC;
   height:'643px'
 }
 .Main6{
-  display:"flex";
-    align-Items:"center";
-    justify-Content:'space-around'
+  display:flex;
+    align-Items:center;
+    justify-Content:space-around
 }
 .l2g2{
   margin:'0 0 32px 0'
@@ -192,7 +192,7 @@ background-Color:#F8F8FC;
   }
   .footer23{
     display: block;
-    margin: 0 auto;
+    margin: 0 64px;
     justify-content: space-around;
     flex-wrap: wrap;
     height: auto;
@@ -214,7 +214,6 @@ background-Color:#F8F8FC;
   }
   .row{
     display: flex;
-  
     align-items: center;
   }
   .row1{

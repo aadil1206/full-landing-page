@@ -5,7 +5,7 @@ import {FcElectricity} from "react-icons/fc"
 import {BsWhatsapp} from "react-icons/bs"
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer' id="abt">
       <div className='logo'>
        <div className='l0'> <img src="./ekaralulogo.png" alt="hello" className='l9'/></div>
       <div className='l1'><p className='p1'>Ready to get start</p>
@@ -37,8 +37,7 @@ const Footer = () => {
      </div>
    
      <div className='row1'>
-      <h3 style={{color:'white'}}>can send the property details <br />
-         via Whatsapp on!</h3>
+      <h3 style={{color:'white'}}>can send the property details via Whatsapp on!</h3>
       <div><button style={{height:"64px",display:'flex',alignItems:'center',justifyContent:'center',borderRadius:'8px',backgroundColor:'#4E8D40'}}> <a href="#"><BsWhatsapp/></a><p>on whatsapp +919131680903</p></button></div>
       <h4 style={{color:'white'}}>Follow us on</h4>
       <div><img src="51.png" alt="" style={{marginRight:'10px'}}/>

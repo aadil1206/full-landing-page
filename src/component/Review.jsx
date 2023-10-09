@@ -2,7 +2,7 @@ import React from 'react'
 
 const Review = () => {
   return (
-    <div className='rev1'>
+    <div className='rev1' id="a12">
       <div ><p style={{alignItems:'center',justifyContent:'center',display:'flex'}}>Testimonials</p>
       <h1 style={{alignItems:'center',justifyContent:'center',display:'flex',marginBottom:'64px'}}>Lovely people say about us </h1>
       </div>

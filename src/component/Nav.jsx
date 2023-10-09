@@ -11,9 +11,9 @@ const Nav = () => {
       <div className='l1'>why you should list with us</div>
       <div><button className='a1b1'>List your agriculture/farm land</button></div>
       <span>|</span>
-     <a href="#" className='a1'>Login</a>
+     <a href="#a12" className='a1'>Login</a>
       <span>|</span>
-      <a href="#" className='a1'>signup</a>
+      <a href="#abt" className='a1'>signup</a>
       <span>|</span>
       <a href="" className='a1'>
         <AiOutlineMenuUnfold className="nav-icons" />
