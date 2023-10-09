@@ -41,8 +41,8 @@ const Footer = () => {
       <div><button style={{height:"64px",display:'flex',alignItems:'center',justifyContent:'center',borderRadius:'8px',backgroundColor:'#4E8D40'}}> <a href="#"><BsWhatsapp/></a><p>on whatsapp +919131680903</p></button></div>
       <h4 style={{color:'white'}}>Follow us on</h4>
       <div><img src="51.png" alt="" style={{marginRight:'10px'}}/>
-      <img src="52.png" alt="" style={{marginRight:'10px'}}/>
-      <img src="53.png" alt="" style={{marginRight:'10px'}}/></div>
+      <a href="https://www.facebook.com/"><img src="52.png" alt="" style={{marginRight:'10px'}}/></a>
+      <a href="https://www.youtube.com/"><img src="53.png" alt="" style={{marginRight:'10px'}}/></a></div>
       </div>
     </div>
     <div style={{color:'white',margin:'0 28px 0 64px',display:'flex',justifyContent:'space-between'}}><p >All right reserved to ekaralu</p>
