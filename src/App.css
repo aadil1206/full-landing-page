@@ -117,10 +117,10 @@ li{
   display:flex;
 }
 .inp1{
-  padding:'16px 10px 16px 10px';
-  height:"56px";
+  padding:16px 10px 16px 10px;
+  height:56px;
   background-color:#F8F8FC;
-    width:"493px"
+    /* width:493px */
 }
 .a1b1{
   margin: 0 20px 0 20px
