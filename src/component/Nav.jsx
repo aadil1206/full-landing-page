@@ -10,14 +10,14 @@ const Nav = () => {
     <div className='n1'>
       <div className='l1'>why you should list with us</div>
       <div><button className='a1b1'>List your agriculture/farm land</button></div>
-      <span>|</span>
+      <span className="m">|</span>
      <a href="#a12" className='a1'>Login</a>
-      <span>|</span>
+      <span  className="m">|</span>
       <a href="#abt" className='a1'>signup</a>
-      <span>|</span>
+      <span  className="m">|</span>
       <a href="" className='a123'>
         <AiOutlineMenuUnfold className="nav-icons" />
-        Menu
+        <p  className="m">Menu</p> 
         </a>
     </div>
     </div>
