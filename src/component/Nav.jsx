@@ -15,7 +15,7 @@ const Nav = () => {
       <span>|</span>
       <a href="#abt" className='a1'>signup</a>
       <span>|</span>
-      <a href="" className='a1'>
+      <a href="" className='a123'>
         <AiOutlineMenuUnfold className="nav-icons" />
         Menu
         </a>
