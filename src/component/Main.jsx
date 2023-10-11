@@ -3,8 +3,8 @@ import React from 'react'
 const Main = () => {
   return (
     <>
-    <div style={{margin:'53px 119px 53px 120px',justifyContent:"space-between",display:'flex',flexWrap:"wrap"}}>
-      <div style={{paddingRight:'100px'}}>
+    <div className='m16'>
+      <div >
         <h1>Not able to find what you are <br />looking for ?<span>Don't Worry</span></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic temporibus quis <br /> asperiores fuga dignissimos tempora in fugit esse officiis at.</p>
         <p>"Dont worry your data safe with us"</p>

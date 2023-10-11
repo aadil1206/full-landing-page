@@ -169,6 +169,12 @@ background-Color:#F8F8FC;
   justify-Content:'space-between';
   width:100%
 }
+.m31{
+  display:flex;
+  padding: 20px 100px 20px 150px;
+  font-size: 30px;
+  align-items: center;
+}
 .n12{
   display:flex;
   justify-Content:space-between;
@@ -184,11 +190,38 @@ background-Color:#F8F8FC;
 }
 .n34{
   padding-Top:15px
+}.m13{
+  margin-Right:"30px";
+  justify-Content:'space-around'
+}
+.m15{
+  margin:120px 120px 40px 120px
+}
+.m16{
+  margin: 53px 89px 53px 80px;
+    justify-Content:space-between;
+    display:flex;
+  
 }
 @media only screen and (max-width:768px){
   *{
     margin: 0;
     padding: 0;
+  }
+  .m31{
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .m15{
+    margin: 20px;
+    text-transform: capitalize;
+  }
+  .m13{
+    margin: 0px;
+    display: flex;
+  }
+  .m32{
+    display: flex;
   }
   .Main4{
     display: flex;
@@ -259,7 +292,9 @@ display: none;
   display: flex;
   }
   .r1{
-    margin-left: 30px;
+    padding:10px;
+    margin: 0px;
+    width: 100%;
   }
   .l1{
     color: black;
@@ -311,12 +346,24 @@ height: 40px;
     width:45vw;
   }
   .inp2{
-    background-color: aqua;
+    padding: 10px 16px 10px 16px;
     width: 80%;
+    margin-bottom: 10px;
+  }
+  .n34{
+    width: 60%;
+  }
+  .inp3{
+    padding: 10px 16px 10px 16px;
+    margin-bottom: 10px;
   }
   .inp{
-    margin-left: 0px;
+    margin: 0px;
     width: 80%;
+  }
+  .inp1{
+    width: 80%;
+    margin-bottom: 10px;
   }
   .m2{
     height: auto;
@@ -384,5 +431,10 @@ height: auto;
 }
 .l98{
 width: 190px;
+}
+.m16{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 }

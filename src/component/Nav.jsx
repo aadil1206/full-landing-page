@@ -21,15 +21,15 @@ const Nav = () => {
         </a>
     </div>
     </div>
-    <div style={{display:"flex",justifyContent:'center'}}>
-     "<h2>Ekaralu :</h2><h3>your gateway to finding the perfect plot of land <br /> and buildimg your future".</h3>
+    <div className='m31'>
+     "<p className='m32'>Ekaralu </p><span>:</span><span>your gateway to finding the perfect plot of land  and buildimg your future".</span>
     </div>
     <div className='r1'>
-      <div ><FiSearch/> Enter village city district</div> <div style={{marginRight:"30px",justifyContent:'space-around'}}><button>search land</button> <button>search on <map name=""></map></button></div>
+      <div ><FiSearch/> Enter village city district</div> <div className='m13'><button>search land</button> <button>search on <map name=""></map></button></div>
       
       
     </div>
-    <div style={{margin:'120px 120px 40px 120px'}}>
+    <div className='m15'>
       <h4 style={{justifyContent:'flex-start',}}>top cities</h4>
       
     <div><h1>expwrience the ultimate land buying journey with ekaralu-where <br />every plot tells a story</h1></div>
